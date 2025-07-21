@@ -106,10 +106,10 @@ main > section{
     color: #787885;
 }
 .card{
-    width: 329px;
+    /* width: 329px; */
     height: 476px;
     box-shadow:0 0 40px 0 rgba(0, 0, 0, 0.15) ;
-    padding-left: 15px;
+    padding-left: 80px;
     padding-bottom: 15px;
      margin-bottom: 20px;
     
@@ -119,6 +119,7 @@ main > section{
 .card-items-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     
     
 }
@@ -231,11 +232,14 @@ footer{
         gap: 30px;
     }
     .card-items-container{
-        grid-template-columns: repeat(2 , 1fr);
+        grid-template-columns: repeat(1 , 1fr);
     }
     .feature-things{
         flex-direction:column;
         text-align: center;
+    }
+    .start{
+        font-size: 2.5rem;
     }
 
 }
