@@ -61,9 +61,11 @@ nav ul a{
       max-width: 440px; */
     /* height: 415px; */
     /* margin-right: 160px; */
+    margin-top:5px;
 }
 .main-camera{
      margin-right: 160px; */
+     margin-top: 30px;
     
 }
 
@@ -204,4 +206,37 @@ footer{
     .card-items-container{
         grid-template-columns: repeat(1 , 1fr);
     }
+    .feature-things{
+        flex-direction: column;
+    }
 }
+@media screen and (min-width:576px) and (max-width:992px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .infulencer{
+        margin-left: 0px;
+    }
+    .nav-list{
+        margin-right:0px;
+    }
+    .header-second{
+        flex-direction:column;
+    }
+    .main-camera{
+      margin-top: 50px;
+    }
+    .sites{
+        grid-template-columns: repeat(4 ,1fr);
+        gap: 30px;
+    }
+    .card-items-container{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    .feature-things{
+        flex-direction:column;
+        text-align: center;
+    }
+
+}
+
